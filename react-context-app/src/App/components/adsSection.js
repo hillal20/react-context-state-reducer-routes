@@ -1,4 +1,4 @@
-import React from "react";
+import React, {memo} from "react";
 
 
 const AdsSection = ()=> {
@@ -6,4 +6,4 @@ const AdsSection = ()=> {
     return <h2>Ads section</h2>
 }
 
-export default AdsSection
+export default memo(AdsSection)
